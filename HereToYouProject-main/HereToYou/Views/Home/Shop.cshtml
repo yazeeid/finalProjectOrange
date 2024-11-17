@@ -1,0 +1,244 @@
+﻿@model Tuple<IEnumerable<Category>, IEnumerable<Product>>
+@{
+    var categories = Model.Item1;
+    var products = Model.Item2;
+    var currentPage = ViewBag.CurrentPage ?? 1;
+    var totalPages = ViewBag.TotalPages ?? 1;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Responsive Bootstrap4 Shop Template, Created by Imran Hossain from https://imransdesign.com/">
+
+    <!-- title -->
+    <title>Shop</title>
+    <link href="~/css/shop.css" rel="stylesheet" />
+    <style>
+        .product-filters ul li.active {
+            background-color: #b458ba;
+            color: #cdcdcd;
+            border-color: #b458ba;
+        }
+
+        .cart-btn {
+            background-color: #140c3c;
+            color: #b458ba;
+            font-weight: 700;
+            text-transform: uppercase;
+            font-size: 15px;
+            border: none !important;
+            cursor: pointer;
+            padding: 15px 25px;
+            border-radius: 20px;
+        }
+
+            .cart-btn:hover {
+                background-color: #b458ba;
+                color: #140c3c;
+            }
+
+        .pagination-wrap ul li a.active {
+            background-color: #b458ba;
+        }
+
+
+        .pagination-wrap ul li:hover a {
+            background-color: #b458ba;
+        }
+    </style>
+</head>
+<body>
+    <!-- breadcrumb-section -->
+    <div class="breadcrumb-section " style="background-color:#140c3c">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2 text-center">
+                    <div class="breadcrumb-text">
+                        
+                        <h1>Shop</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end breadcrumb section -->
+    <!-- Start Hero Section -->
+    <link href="~/css/styles.css" rel="stylesheet" />
+
+    <!-- Start Product Section -->
+    <div class="product-section mt-150 mb-150">
+        <div class="container">
+
+            <!-- Filters -->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="product-filters">
+                        <ul>
+                            <li class="active">
+                                <a style="color:black" href="@Url.Action("AllProductInAllCategorie", new { page = 1 })">All</a>
+                            </li>
+                            @foreach (var category in categories)
+                            {
+                                <li>
+                                    <a style="color:black" href="@Url.Action("AllProductInAllCategorie", new { page = 1, categoryId = category.Id })">
+                                        @category.Name
+                                    </a>
+                                </li>
+                            }
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Products -->
+            <!-- Products -->
+            <div class="row product-lists">
+                @foreach (var product in products)
+                {
+                    <div class="col-lg-4 col-md-6 text-center @product.Category.Name.ToLower()">
+                        <div class="single-product-item">
+                            <div class="product-image">
+                                <a href="@Url.Action("productsIndetails", "Home", new { id = product.ProductId })">
+                                    <img src="@Url.Content("~/img/" + product.Image)" alt="@product.ProductName">
+                                </a>
+                            </div>
+                            <h3>@product.ProductName</h3>
+                            <p class="product-price">
+                                <span>Per Unit</span> @String.Format("{0:C}", product.Price)
+                            </p>
+                            <form method="post" class="add-to-cart-form">
+                                <input type="hidden" name="ProductId" value="@product.ProductId" />
+                                <input type="hidden" name="Quantity" value="1" />
+                                <button type="submit" class="cart-btn">
+                                    <i class="fas fa-shopping-cart"></i> Add to Cart
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                }
+            </div>
+
+
+            <!-- Pagination -->
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="pagination-wrap">
+                        <ul>
+                            @if (currentPage > 1)
+                            {
+                                <li>
+                                    <a href="@Url.Action("AllProductInAllCategorie", new { page = currentPage - 1, categoryId = ViewBag.SelectedCategory })">Prev</a>
+                                </li>
+                            }
+                            @for (int i = 1; i <= totalPages; i++)
+                            {
+                                <li>
+                                    <a href="@Url.Action("AllProductInAllCategorie", new { page = i, categoryId = ViewBag.SelectedCategory })" class="@(i == currentPage ? "active" : "")">
+                                        @i
+                                    </a>
+                                </li>
+                            }
+                            @if (currentPage < totalPages)
+                            {
+                                <li>
+                                    <a href="@Url.Action("AllProductInAllCategorie", new { page = currentPage + 1, categoryId = ViewBag.SelectedCategory })">Next</a>
+                                </li>
+                            }
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <!-- End Product Section -->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    @* <script>
+        $(document).ready(function() {
+            // Filter products based on category
+            $('.product-filters li').click(function() {
+                var filterValue = $(this).attr('data-filter');
+
+                // Remove 'active' class from all filter items and add to the clicked one
+                $('.product-filters li').removeClass('active');
+                $(this).addClass('active');
+
+                // Filter products
+                if (filterValue === '*') {
+                    // Show all products
+                    $('.product-lists .col-lg-4').show();
+                } else {
+                    // Hide all products first
+                    $('.product-lists .col-lg-4').hide();
+
+                    // Show only the products that match the filter
+                    $('.product-lists ' + filterValue).show();
+                }
+            });
+        });
+    </script> *@
+     <script>
+        $(document).ready(function () {
+            // Initialize cart count from local storage or set to 0 if not present
+            let cartCount = parseInt(localStorage.getItem('cartCount')) || 0;
+            $('#cart-count').text(cartCount);
+
+            // Event listener for cart button click
+            $('.cart-btn').click(function () {
+                // Increment cart count
+                cartCount += 1;
+
+                // Update the cart count display
+                $('#cart-count').text(cartCount);
+
+                // Save the updated count to local storage
+                localStorage.setItem('cartCount', cartCount);
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $(".add-to-cart-form").submit(function (event) {
+                event.preventDefault(); // Prevent the default form submission
+
+                var form = $(this);
+                var formData = form.serialize(); // Serialize form data
+
+                $.ajax({
+                    type: "POST",
+                    url: "@Url.Action("AddToCart", "Cart")",
+                    data: formData,
+                    success: function (response) {
+                        if (response.success) {
+                            Swal.fire({
+                                title: 'Success!',
+                                text: 'Product added to cart.',
+                                icon: 'success',
+                                confirmButtonText: 'OK'
+                            });
+                            // Optionally update the cart item count on the page
+                            $("#cartItemCount").text(response.countOfItem);
+                        } else {
+                            Swal.fire({
+                                title: 'Error!',
+                                text: 'Failed to add product to cart.',
+                                icon: 'error',
+                                confirmButtonText: 'OK'
+                            });
+                        }
+                    }
+                });
+            });
+        });
+
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+</html>

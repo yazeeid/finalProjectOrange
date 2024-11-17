@@ -1,0 +1,78 @@
+﻿@model HereToYou.Models.User
+
+@{
+    ViewData["Title"] = "Login";
+    Layout = "AdminLayout";
+}
+<style>
+    <style >
+    .primary {
+        color: #ffffff !important; /* or any other blue shade you prefer */
+        background-color: #ffffff !important;
+    }
+
+    /* Update other elements that use the red color */
+    .navbar-dark .navbar-nav .nav-link {
+        color: #ffffff !important;
+    }
+
+    .alert-primary {
+        background-color: #ffffff !important;
+        border-color: #ffffff !important;
+    }
+
+    .progress-bar.progress-bar-striped.bg-primary {
+        background-color: #ffffff !important;
+    }
+</style>
+
+<link href="~/LoginAssets/Login.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10/dist/sweetalert2.min.css">
+<div class="form-structor">
+    <form method="post" asp-controller="authentication" asp-action="Register" class="signup">
+        <h2 class="form-title" id="signup"><span>or</span>Sign up</h2>
+        <div class="form-holder">
+            <input type="email" asp-for="Email" class="input" placeholder="Email" style="height: 50px;" />
+            <input type="password" asp-for="PasswordHash" class="input" placeholder="Password" style="height: 50px;" />
+            <p class="error">@ViewBag.RegisterError</p>
+        </div>
+        <button type="submit" class="submit-btn">Sign up</button>
+        @if (ViewBag.RegisterError != null)
+        {
+            <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+            <script>
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Error',
+                    text: '@ViewBag.RegisterError',
+                    confirmButtonText: 'OK'
+                });
+            </script>
+        }
+    </form>
+
+    <form method="post" asp-controller="authentication" asp-action="Login" class="login slide-up">
+        <div class="center">
+            <h2 class="form-title" id="login"><span>or</span>Log in</h2>
+            <div class="form-holder">
+                <input type="email" asp-for="Email" class="input" placeholder="Email" />
+                <input type="password" asp-for="PasswordHash" class="input" placeholder="Password" />
+            </div>
+            <button type="submit" class="submit-btn">Log in</button>
+        </div>
+        @if (ViewBag.LoginError != null)
+        {
+            <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+            <script>
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Error',
+                    text: '@ViewBag.LoginError',
+                    confirmButtonText: 'OK'
+                });
+            </script>
+        }
+    </form>
+</div>
+
+<script src="~/LoginAssets/JavaScript.js"></script>

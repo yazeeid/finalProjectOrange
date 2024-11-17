@@ -1,0 +1,187 @@
+﻿@model HereToYou.Models.User
+
+@{
+	Layout = null;
+}
+<link href="~/authentication/login.css" rel="stylesheet" />
+
+<style>
+
+	.form {
+		background: linear-gradient( #140c3c, #b458ba);
+	}
+
+		.form button {
+			cursor: pointer;
+			width: 100%;
+			padding: .6rem 0;
+			border-radius: .5rem;
+			border: none;
+			background-color: #140c3c;
+			color: var(--white);
+			font-size: 1.2rem;
+			outline: none;
+		}
+
+	.container::before {
+		content: "";
+		position: absolute;
+		top: 0;
+		right: 0;
+		height: 100vh;
+		width: 300vw;
+		transform: translate(35%, 0);
+		background-image: linear-gradient( #140c3c, #b458ba);
+		transition: 1s ease-in-out;
+		z-index: 6;
+		box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+		border-bottom-right-radius: max(50vw, 50vh);
+		border-top-left-radius: max(50vw, 50vh);
+	}
+</style>
+
+<div id="container" class="container">
+	<!-- FORM SECTION -->
+	<div class="row">
+		<!-- SIGN UP -->
+		<div class="col align-items-center flex-col sign-up">
+			<form class="form-wrapper align-items-center" asp-controller="authentication" asp-action="Register" class="signup">
+				<div class="form sign-up">
+					<div class="input-group">
+						<i class='bx bxs-user'></i>
+						<input type="text" asp-for="Username" class="input" placeholder="Name" />
+					</div>
+					<div class="input-group">
+						<i class='bx bx-mail-send'></i>
+						<input type="email" asp-for="Email" class="input" placeholder="Email" />
+					</div>
+					<div class="input-group">
+						<i class='bx bxs-lock-alt'></i>
+						<input type="text" asp-for="Location" class="input" placeholder="Location" />
+					</div>
+					<div class="input-group">
+						<i class='bx bxs-lock-alt'></i>
+						<input type="text" asp-for="phoneNumber" class="input" placeholder="Phone Number" />
+					</div>
+					<div class="input-group">
+						<i class='bx bxs-lock-alt'></i>
+						<input type="password" asp-for="PasswordHash" class="input" placeholder="Password" />
+					</div>
+					<button>
+						Sign up
+					</button>
+					<p>
+						<span>
+							Already have an account?
+						</span>
+						<b onclick="toggle()" class="pointer">
+							Sign in here
+						</b>
+					</p>
+				</div>
+			</form>
+			@* @{
+				var isSuccess = ViewBag.IsSuccess as bool?;
+			} *@
+
+			@if (ViewBag.IsSuccess == true)
+			{
+				<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+				<script>
+					Swal.fire({
+						icon: 'success',
+						title: 'Success',
+						text: '@ViewBag.Message',
+						confirmButtonText: 'OK'
+					});
+				</script>
+			}
+			@if (ViewBag.RegisterError != null)
+			{
+				<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+				<script>
+					Swal.fire({
+						icon: 'error',
+						title: 'Error',
+						text: '@ViewBag.RegisterError',
+						confirmButtonText: 'OK'
+					});
+				</script>
+			}
+
+		</div>
+		
+
+		<!-- END SIGN UP -->
+		<!-- SIGN IN -->
+		<div class="col align-items-center flex-col sign-in">
+			<form class="form-wrapper align-items-center" asp-controller="authentication" asp-action="Login">
+				<div class="form sign-in">
+					<div class="input-group">
+						<i class='bx bxs-user'></i>
+						<input type="email" name="Email" class="input" placeholder="Email" />
+					</div>
+					<div class="input-group">
+						<i class='bx bxs-lock-alt'></i>
+						<input type="password" name="PasswordHash" class="input" placeholder="Password" />
+					</div>
+					<button>
+						Sign in
+					</button>
+					@if (ViewBag.LoginError != null)
+					{
+						<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+						<script>
+							Swal.fire({
+								icon: 'error',
+								title: 'Error',
+								text: '@ViewBag.LoginError',
+								confirmButtonText: 'OK'
+							});
+						</script>
+					}
+					<p>
+						<span>
+							Don't have an account?
+						</span>
+						<b onclick="toggle()" class="pointer">
+							Sign up here
+						</b>
+					</p>
+				</div>
+			</form>
+			<div class="form-wrapper">
+			</div>
+		</div>
+		<!-- END SIGN IN -->
+	</div>
+	<!-- END FORM SECTION -->
+	<!-- CONTENT SECTION -->
+	<div class="row content-row">
+		<!-- SIGN IN CONTENT -->
+		<div class="col align-items-center flex-col">
+			<div class="text sign-in">
+				<h2>
+					Welcome
+				</h2>
+
+			</div>
+			<div class="img sign-in">
+			</div>
+		</div>
+		<!-- END SIGN IN CONTENT -->
+		<!-- SIGN UP CONTENT -->
+		<div class="col align-items-center flex-col">
+			<div class="img sign-up">
+			</div>
+			<div class="text sign-up">
+				<h2>
+					Join with us
+				</h2>
+
+			</div>
+		</div>
+		<!-- END SIGN UP CONTENT -->
+	</div>
+    <!-- END CONTENT SECTION --><script src="~/authentication/login.js"></script>
+</div>

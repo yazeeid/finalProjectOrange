@@ -1,0 +1,185 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<link href="~/css/test.css" rel="stylesheet" />
+<!-- end home page slider -->
+<!-- Features list section -->
+<div class="homepage-slider">
+    <!-- single home slider -->
+    <div class="single-homepage-slider homepage-bg-1">
+        <img id="background-video" src="~/img/slider111.jpeg" />
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-7 offset-lg-1 offset-xl-0">
+                    <div class="hero-text">
+                        <div class="hero-text-tablecell">
+                            <h1>GameZone</h1>
+                            <div class="hero-btns">
+                                <a asp-action="shop" class="bordered-btn" style="color:#b458ba ; border-color:unset;">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+    <!-- single home slider -->
+    <div class="single-homepage-slider homepage-bg-2">
+        <img id="background-video" src="~/img/slider222.jpeg" />
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 offset-lg-1 text-center">
+                    <div class="hero-text">
+                        <div class="hero-text-tablecell">
+                            <h1 class="subtitle" style="color:white">New Item Everyday</h1>
+                            <div class="hero-btns">
+                                <a asp-action="Shop" class="boxed-btn" style="color:#b458ba ; border-color:unset;">Visit Shop</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- single home slider -->
+    <div class="single-homepage-slider homepage-bg-3">
+        <img id="background-video" src="~/img/slider333.jpeg" />
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 offset-lg-1 text-right">
+                    <div class="hero-text">
+                        <div class="hero-text-tablecell">
+                            <h1>Contact us for any problem</h1>
+                            <div class="hero-btns">
+                                <a asp-action="ConectUs" class="bordered-btn" style="color:#b458ba ; border-color:unset;">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="list-section pt-80 pb-80">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                <div class="list-box d-flex align-items-center">
+                    <div class="list-icon">
+                        <i class="fas fa-shipping-fast" style="color:#b458ba; border-color:unset; border-style:unset;"></i>
+                    </div>
+                    <div class="content">
+                        <h3>Free Shipping</h3>
+                        <p>When order over $75</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                <div class="list-box d-flex align-items-center">
+                    <div class="list-icon">
+                        <i class="fas fa-phone-volume" style="color:#b458ba; border-color:unset; border-style:unset;"></i>
+                    </div>
+                    <div class="content">
+                        <h3>24/7 Support</h3>
+                        <p>Get support all day</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="list-box d-flex justify-content-start align-items-center">
+                    <div class="list-icon">
+                        <i class="fas fa-sync" style="color:#b458ba; border-color:unset; border-style:unset;"></i>
+                    </div>
+                    <div class="content">
+                        <h3>Refund</h3>
+                        <p>Get refund within 3 days!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Video and text section -->
+<section class="video-section">
+    <div class="video-wrapper">
+        <video autoplay loop muted>
+            <source src="~/video/7774453-uhd_3840_2160_30fps.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="video-content">
+            <h1>Make Your Own World With GameZone</h1>
+        </div>
+    </div>
+</section>
+
+
+@* <div class="video-text-container">
+    <div class="video-container">
+        <video autoplay loop muted>
+            <source src="~/video/WhatsApp Video 2024-08-15 at 3.50.31 PM.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="text-container">
+        <h1>Celebrate Life’s Moments with Unique and Memorable Gifts</h1>
+        <p>We can help you find the perfect gift for any occasion, ensuring no detail is overlooked. Whether you’re looking for a delightful cake or a charming candle, we have a wide selection to meet your needs. From the smallest token of appreciation to the grandest gesture, our collection is designed to help you make every moment special. Let us guide you in selecting a gift that will leave a lasting impression and celebrate the unique milestones in your life.</p>
+        <a href="shop.html" class="boxed-btn" style="align-items:start">lets do it </a>
+
+    </div>
+</div>
+ *@
+<!-- Slider section -->
+<div class="slider-container">
+    <h2 style="margin-top:4% ;color:#b458ba">
+        Explore Our Category
+    </h2>
+    <div class="slider">
+        <div class="slide">
+            <img src="~/img/laptop001.jpg" alt="laptop">
+            <div class="img-cap">
+                <span>Laptop</span>
+            </div>
+            <div class="favorit-items">
+                <a asp-controller="Home" asp-action="Shop" class="btn" style="background-color: #b458ba;">Shop Now</a>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="~/img/playstationFive.jpeg" alt="PlayStation">
+            <div class="img-cap">
+                <span>PlayStation</span>
+            </div>
+            <div class="favorit-items">
+                <a asp-controller="Home" asp-action="Shop" class="btn" style="background-color: #b458ba;">Shop Now</a>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="~/img/X-Box.jpeg" alt="Jackets">
+            <div class="img-cap">
+                <span>X-Box</span>
+            </div>
+            <div class="favorit-items">
+                <a asp-controller="Home" asp-action="Shop" class="btn" style="background-color: #b458ba;">Shop Now</a>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="~/img/acccccc.jpeg" alt="Clothes">
+            <div class="img-cap">
+                <span>Accessories</span>
+            </div>
+            <div class="favorit-items">
+                <a asp-controller="Home" asp-action="Shop" class="btn" style="background-color: #b458ba;">Shop Now</a>
+            </div>
+        </div>
+        
+    </div>
+    <a class="prev" onclick="plusSlides(-1)" style="color:#6c757d;">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)" style="color:#6c757d;">&#10095;</a>
+</div>
+
+
+
+<script src="~/js/test.js"></script>

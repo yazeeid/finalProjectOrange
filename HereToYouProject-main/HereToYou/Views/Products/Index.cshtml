@@ -1,0 +1,61 @@
+﻿@model IEnumerable<HereToYou.Models.Product>
+
+@{
+    ViewData["Title"] = "Products";
+    Layout = "AdminLayout";
+}
+
+<div class="container-fluid pt-4 px-4">
+    <div class="row g-4">
+        <div class="col-12">
+            <div class="bg-secondary rounded h-100 p-4">
+                <h6 class="mb-4">Products</h6>
+
+                <div class="d-flex mb-3">
+                    <div class="flex-grow-1 mr-2">
+                        <form asp-action="SearchByName" method="post" class="d-flex align-items-center">
+                            <input type="text" name="name" class="form-control" placeholder="Search by user" />
+                            <button type="submit" class="btn btn-primary ms-2" style="margin-right:3%">Search</button>
+                        </form>
+                    </div>
+                    <div>
+                        <a asp-action="Create" class="btn btn-success">Create New</a>
+                    </div>
+                </div>
+                <div class="table-responsive">
+                    <table class="table table-bordered table-striped">
+                        <thead class="table-dark">
+                            <tr>
+                                <th scope="col">@Html.DisplayNameFor(model => model.ProductName)</th>
+                                <th scope="col">@Html.DisplayNameFor(model => model.Description)</th>
+                                <th scope="col">@Html.DisplayNameFor(model => model.Price)</th>
+                                <th scope="col">@Html.DisplayNameFor(model => model.Image)</th>
+                                <th scope="col">@Html.DisplayNameFor(model => model.Stock)</th>
+                                <th scope="col">@Html.DisplayNameFor(model => model.Category)</th>
+                                <th scope="col">Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>@Html.DisplayFor(modelItem => item.ProductName)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.Description)</td>
+                                    <td><img src="@Url.Content("~/img/" + item.Image)" alt="Product Image" style="width:150px;" /></td>
+                                    <td>@Html.DisplayFor(modelItem => item.Price)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.Stock)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.Category.Name)</td>
+                                    <td>
+                                        <a asp-action="Edit" asp-route-id="@item.ProductId">Edit</a>
+                                        <a asp-action="Details" asp-route-id="@item.ProductId">Details</a>
+                                        <a asp-action="Delete" asp-route-id="@item.ProductId">Delete</a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

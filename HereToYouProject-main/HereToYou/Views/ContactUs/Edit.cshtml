@@ -1,0 +1,77 @@
+﻿@model HereToYou.Models.ContactUs
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "AdminLayout";
+}
+
+<!-- Page Header -->
+<div class="page-header mb-4">
+    <h1>Edit Contact Us</h1>
+    <p>Edit contact us details</p>
+</div>
+
+<!-- Form Container -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <div class="card shadow">
+                <div class="card-body">
+                    <form asp-action="Edit">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <input type="hidden" asp-for="ContactUsId" />
+
+                        <!-- Name Field -->
+                        <div class="form-group mb-3">
+                            <label asp-for="Name" class="control-label"></label>
+                            <input asp-for="Name" class="form-control" />
+                            <span asp-validation-for="Name" class="text-danger"></span>
+                        </div>
+
+                        <!-- Email Field -->
+                        <div class="form-group mb-3">
+                            <label asp-for="Email" class="control-label"></label>
+                            <input asp-for="Email" class="form-control" />
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+
+                        <!-- Subject Field -->
+                        <div class="form-group mb-3">
+                            <label asp-for="Subject" class="control-label"></label>
+                            <input asp-for="Subject" class="form-control" />
+                            <span asp-validation-for="Subject" class="text-danger"></span>
+                        </div>
+
+                        <!-- Message Field -->
+                        <div class="form-group mb-3">
+                            <label asp-for="Message" class="control-label"></label>
+                            <textarea asp-for="Message" class="form-control" rows="5"></textarea>
+                            <span asp-validation-for="Message" class="text-danger"></span>
+                        </div>
+
+                        <!-- DateSubmitted Field -->
+                        <div class="form-group mb-3">
+                            <label asp-for="DateSubmitted" class="control-label"></label>
+                            <input asp-for="DateSubmitted" class="form-control" />
+                            <span asp-validation-for="DateSubmitted" class="text-danger"></span>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <div class="form-group mb-3">
+                            <input type="submit" value="Save" class="btn btn-primary btn-block" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Back to List Link -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <a asp-action="Index" class="btn btn-secondary btn-block">Back to List</a>
+        </div>
+    </div>
+</div>

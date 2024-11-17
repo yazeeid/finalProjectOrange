@@ -1,0 +1,180 @@
+﻿@using HereToYou.Cart
+@model List<CartItem>
+
+    <style>
+    .cart-buttons {
+        margin-top: 20px;
+    }
+
+        .cart-buttons a {
+            background-color: #333333;
+            color: #FFFFFF;
+            font-size: 14px;
+            line-height: 18px;
+            padding: 10px 20px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+            .cart-buttons a:hover {
+                background-color: #444444;
+            }
+
+        .cart-buttons button.boxed-btn.black {
+            background-color: #333333;
+            color: #FFFFFF;
+            font-size: 14px;
+            line-height: 18px;
+            padding: 10px 20px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+            .cart-buttons button.boxed-btn.black:hover {
+                background-color: #444444;
+            }
+
+
+    a.boxed-btn {
+        font-family: 'Poppins', sans-serif;
+        display: inline-block;
+        border: 2px solid #b458ba;
+        color: #fff;
+        padding: 10px 20px;
+    }
+
+    a.boxed-btn:hover {
+        font-family: 'Poppins', sans-serif;
+        display: inline-block;
+        border: 2px solid #b458ba;
+        color: #fff;
+        padding: 10px 20px;
+    }
+
+    .cart-buttons button.boxed-btn.black {
+        background-color: #333333;
+        color: #FFFFFF;
+        font-size: 14px;
+        line-height: 18px;
+        padding: 10px 20px;
+        border-radius: 10px;
+        cursor: pointer;
+        border: 2px solid #b458ba;
+    }
+    </style>
+
+<!-- Breadcrumb Section -->
+<div class="breadcrumb-section" style="background-color:#140c3c">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2 text-center">
+                <div class="breadcrumb-text">
+                    <h1>Cart</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Breadcrumb Section -->
+<!-- Cart Section -->
+<div class="cart-section mt-150 mb-150">
+    <div class="container">
+        <div class="row">
+            <!-- Cart Table -->
+            <div class="col-lg-8 col-md-12">
+                <div class="cart-table-wrap">
+
+                    <form method="post">
+                        <table class="cart-table">
+                            <thead class="cart-table-head">
+                                <tr class="table-head-row">
+                                    <th class="product-remove"></th>
+                                    <th class="product-image">Product Image</th>
+                                    <th class="product-name">Name</th>
+                                    <th class="product-price">Price</th>
+                                    <th class="product-quantity">Quantity</th>
+                                    <th class="product-total">Total</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr class="table-body-row">
+                                        <td class="product-remove">
+                                            <form asp-controller="Cart" asp-action="RemoveFromCart" method="post" style="display: inline;">
+                                                <input type="hidden" name="productId" value="@item.ProductId" />
+                                                <button type="submit" class="btn btn-link"><i class="far fa-window-close"></i></button>
+                                            </form>
+                                        </td>
+
+                                        <td class="product-image">
+                                            <img src="@Url.Content("~/img/" + item.Image)" alt="Product Image">
+                                        </td>
+                                        <td class="product-name">@item.ProductName</td>
+                                        <td class="product-price">@item.Price.ToString("C")</td>
+                                        <td class="product-quantity">
+                                            <form asp-action="DecreaseQuantity" method="post" style="display: inline;">
+                                                <input type="hidden" name="productId" value="@item.ProductId" />
+                                                <button class="btn btn-outline-black decrease" type="submit">−</button>
+                                            </form>
+                                            <input type="number" class="form-control text-center quantity-amount" value="@item.Quantity" style="display: inline; width: 50px; margin: 0 5px;">
+                                            <form asp-action="IncreaseQuantity" method="post" style="display: inline;">
+                                                <input type="hidden" name="productId" value="@item.ProductId" />
+                                                <button class="btn btn-outline-black increase" type="submit">+</button>
+                                            </form>
+                                        </td>
+
+
+                                        <td class="product-total">$@(item.Price * item.Quantity)</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                        <div class="cart-buttons mt-4">
+                            <a href="~/Home/Shop" class="boxed-btn">Continue Shopping</a>
+                            <button type="submit" class="boxed-btn black" formaction="@Url.Action("ClearCart", "Cart")">Clear Cart</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+           
+            <!-- Total Section -->
+            <div class="col-lg-4">
+                <div class="total-section">
+                    <table class="total-table">
+                        <thead class="total-table-head">
+                            <tr class="table-total-row">
+                                <th>Total</th>
+                                <th>Price</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="total-data">
+                                <td><strong>Subtotal: </strong></td>
+                                <td>@Model.Sum(item => item.Price * item.Quantity).ToString("C")</td>
+                            </tr>
+                            <!-- Optionally, add shipping and other costs -->
+                            <tr class="total-data">
+                                <td><strong>tax </strong></td>
+                                <td>7$</td>
+                            </tr>
+                            <tr class="total-data">
+                                <td><strong>Total: </strong></td>
+                                <td>@((Model.Sum(item => item.Price * item.Quantity)+7).ToString("C"))</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="cart-buttons mt-4">
+                        <a href="@Url.Action("ProcessCheckout", "Cart")" class="boxed-btn black">Check Out</a>
+                    </div>
+                </div>
+
+                @if (ViewBag.Error != null)
+                {
+                    <div class="text-danger" style="color:red">@ViewBag.Error</div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Cart Section -->

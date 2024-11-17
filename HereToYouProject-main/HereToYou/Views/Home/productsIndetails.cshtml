@@ -1,0 +1,120 @@
+﻿@model HereToYou.Models.Product
+@{
+    ViewBag.Title = Model.ProductName;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>@Model.ProductName - Product Detail</title>
+    <link href="~/css/styles.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <style>
+        .cart-btn {
+            background-color: #140c3c;
+            color: #ffffff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-bottom: 2%;
+            border-radius: 5px;
+        }
+
+            .cart-btn:hover {
+                background-color: #b458ba;
+            }
+    </style>
+</head>
+<body>
+    <!-- breadcrumb-section -->
+    <div class="breadcrumb-section" style="background-color:#140c3c">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2 text-center">
+                    <div class="breadcrumb-text">
+                        
+                        <h1>@Model.ProductName</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end breadcrumb section -->
+    <!-- single product -->
+    <div class="single-product mt-150 mb-150">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="single-product-img">
+                        <img src="@Url.Content("~/img/" + Model.Image)" alt="@Model.ProductName" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="single-product-content">
+                        <h3>@Model.ProductName</h3>
+                        <p class="single-product-pricing"><span>Per Unit</span> @String.Format("{0:C}", Model.Price)</p>
+                        <p>@Model.Description</p>
+                        <div class="single-product-form">
+                            <div class="product-actions mt-4">
+                                <form method="post" class="add-to-cart-form">
+                                    <input type="hidden" name="ProductId" value="@Model.ProductId" />
+                                    <input type="hidden" name="Quantity" value="1" />
+                                    <button type="submit" class="cart-btn">
+                                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                                    </button>
+                                </form>
+                            </div>
+                            <p><strong>Category: </strong>@Model.Category?.Name</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end single product -->
+    <!-- end product details -->
+    <script src="~/js/scripts.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".add-to-cart-form").submit(function (event) {
+                event.preventDefault(); // Prevent the default form submission
+
+                var form = $(this);
+                var formData = form.serialize(); // Serialize form data
+
+                $.ajax({
+                    type: "POST",
+                    url: "@Url.Action("AddToCart", "Cart")",
+                    data: formData,
+                    success: function (response) {
+                        if (response.success) {
+                            Swal.fire({
+                                title: 'Success!',
+                                text: 'Product added to cart.',
+                                icon: 'success',
+                                confirmButtonText: 'OK'
+                            });
+                            // Optionally update the cart item count on the page
+                            $("#cartItemCount").text(response.countOfItem);
+                        } else {
+                            Swal.fire({
+                                title: 'Error!',
+                                text: 'Failed to add product to cart.',
+                                icon: 'error',
+                                confirmButtonText: 'OK'
+                            });
+                        }
+                    }
+                });
+            });
+        });
+
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

@@ -1,0 +1,1829 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\HereToYou.bundle.scp.css",
+      "PackagePath": "staticwebassets\\HereToYou.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\AdminAsseets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\css\\style.css",
+      "PackagePath": "staticwebassets\\AdminAsseets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\img\\testimonial-1.jpg",
+      "PackagePath": "staticwebassets\\AdminAsseets\\img\\testimonial-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\img\\testimonial-2.jpg",
+      "PackagePath": "staticwebassets\\AdminAsseets\\img\\testimonial-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\img\\user.jpg",
+      "PackagePath": "staticwebassets\\AdminAsseets\\img\\user.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\js\\main.js",
+      "PackagePath": "staticwebassets\\AdminAsseets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\lib\\chart\\chart.min.js",
+      "PackagePath": "staticwebassets\\AdminAsseets\\lib\\chart\\chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\lib\\easing\\easing.js",
+      "PackagePath": "staticwebassets\\AdminAsseets\\lib\\easing\\easing.js"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\lib\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\AdminAsseets\\lib\\easing\\easing.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\lib\\owlcarousel\\LICENSE",
+      "PackagePath": "staticwebassets\\AdminAsseets\\lib\\owlcarousel"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\AdminAsseets\\lib\\owlcarousel\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\AdminAsseets\\lib\\owlcarousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\AdminAsseets\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\AdminAsseets\\lib\\owlcarousel\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\AdminAsseets\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\AdminAsseets\\lib\\owlcarousel\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\AdminAsseets\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\AdminAsseets\\lib\\owlcarousel\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\lib\\owlcarousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\AdminAsseets\\lib\\owlcarousel\\owl.carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\lib\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\AdminAsseets\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css",
+      "PackagePath": "staticwebassets\\AdminAsseets\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css",
+      "PackagePath": "staticwebassets\\AdminAsseets\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\lib\\tempusdominus\\js\\moment-timezone.min.js",
+      "PackagePath": "staticwebassets\\AdminAsseets\\lib\\tempusdominus\\js\\moment-timezone.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\lib\\tempusdominus\\js\\moment.min.js",
+      "PackagePath": "staticwebassets\\AdminAsseets\\lib\\tempusdominus\\js\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js",
+      "PackagePath": "staticwebassets\\AdminAsseets\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js",
+      "PackagePath": "staticwebassets\\AdminAsseets\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\lib\\waypoints\\links.php",
+      "PackagePath": "staticwebassets\\AdminAsseets\\lib\\waypoints\\links.php"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\lib\\waypoints\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\AdminAsseets\\lib\\waypoints\\waypoints.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\_accordion.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\_accordion.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\_alert.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\_badge.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\_button-group.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\_button-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\_buttons.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\_card.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\_card.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\_carousel.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\_carousel.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\_close.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\_close.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\_containers.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\_containers.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\_forms.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\_grid.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\_helpers.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\_helpers.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\_images.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\_images.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\_list-group.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\_modal.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\_modal.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\_nav.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\_offcanvas.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\_pagination.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\_popover.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\_popover.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\_progress.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\_reboot.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\_reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\_root.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\_root.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\_spinners.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\_spinners.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\_tables.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\_toasts.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\_toasts.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\_tooltip.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\_transitions.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\_transitions.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\_type.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\_type.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\bootstrap-utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\forms\\_form-text.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\forms\\_form-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\forms\\_labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\forms\\_validation.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\helpers\\_position.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\helpers\\_ratio.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\helpers\\_ratio.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\mixins\\_container.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\mixins\\_image.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\mixins\\_utilities.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\mixins\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\utilities\\_api.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\utilities\\_api.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\AdminAsseets\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\AdminAsseets\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\Apple-Logo123.jpg",
+      "PackagePath": "staticwebassets\\Apple-Logo123.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\VisaCardAssets\\JavaScript.js",
+      "PackagePath": "staticwebassets\\VisaCardAssets\\JavaScript.js"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\VisaCardAssets\\VisaCard.css",
+      "PackagePath": "staticwebassets\\VisaCardAssets\\VisaCard.css"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\authentication\\Login.css",
+      "PackagePath": "staticwebassets\\authentication\\Login.css"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\authentication\\Login.js",
+      "PackagePath": "staticwebassets\\authentication\\Login.js"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\css\\About.jpg",
+      "PackagePath": "staticwebassets\\css\\About.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\css\\all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\css\\animate.css",
+      "PackagePath": "staticwebassets\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\css\\home.css",
+      "PackagePath": "staticwebassets\\css\\home.css"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\css\\main.scss",
+      "PackagePath": "staticwebassets\\css\\main.scss"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\css\\meanmenu.min.css",
+      "PackagePath": "staticwebassets\\css\\meanmenu.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\css\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\css\\owl.carousel.css"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\css\\prepros-6.config",
+      "PackagePath": "staticwebassets\\css\\prepros-6.config"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\css\\shop.css",
+      "PackagePath": "staticwebassets\\css\\shop.css"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\css\\test.css",
+      "PackagePath": "staticwebassets\\css\\test.css"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\galary\\100 Valentine’s Day Gifts To Make Them Smitten With Love And Affection.jpg",
+      "PackagePath": "staticwebassets\\galary\\100 Valentine’s Day Gifts To Make Them Smitten With Love And Affection.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\galary\\22222.PNG",
+      "PackagePath": "staticwebassets\\galary\\22222.PNG"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\galary\\3456.PNG",
+      "PackagePath": "staticwebassets\\galary\\3456.PNG"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\galary\\34567U8IO.PNG",
+      "PackagePath": "staticwebassets\\galary\\34567U8IO.PNG"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\galary\\66666.PNG",
+      "PackagePath": "staticwebassets\\galary\\66666.PNG"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\galary\\8f47a257-c1b6-4406-aff3-9903317241ff-removebg-preview.png",
+      "PackagePath": "staticwebassets\\galary\\8f47a257-c1b6-4406-aff3-9903317241ff-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\galary\\91f2c381-e91f-447b-8af7-43aa360989cf.jpg",
+      "PackagePath": "staticwebassets\\galary\\91f2c381-e91f-447b-8af7-43aa360989cf.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\galary\\92bee9b0-258f-4d46-a11a-181b16d14bf0.jpg",
+      "PackagePath": "staticwebassets\\galary\\92bee9b0-258f-4d46-a11a-181b16d14bf0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\galary\\Bouquete_de_velas_aromáticas-removebg-preview.png",
+      "PackagePath": "staticwebassets\\galary\\Bouquete_de_velas_aromáticas-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\galary\\Fragrance Flower - Pink.jpg",
+      "PackagePath": "staticwebassets\\galary\\Fragrance Flower - Pink.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\galary\\Gucci_Bloom_Ambrosia_di_Fiori_Eau_de_Parfum_Intense_For_Her_-_Gucci___Sephora-removebg-preview.png",
+      "PackagePath": "staticwebassets\\galary\\Gucci_Bloom_Ambrosia_di_Fiori_Eau_de_Parfum_Intense_For_Her_-_Gucci___Sephora-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\galary\\Studio.jpg",
+      "PackagePath": "staticwebassets\\galary\\Studio.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\galary\\Vindemia Gold.jpg",
+      "PackagePath": "staticwebassets\\galary\\Vindemia Gold.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\galary\\download (7).jpg",
+      "PackagePath": "staticwebassets\\galary\\download (7).jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\galary\\download (8).jpg",
+      "PackagePath": "staticwebassets\\galary\\download (8).jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\galary\\\uD835\uDE06\uD835\uDDFC\uD835\uDE02\uD835\uDDFF\uD835\uDDFF\uD835\uDE04\uD835\uDDF6\uD835\uDDF3\uD835\uDDF2.jpg",
+      "PackagePath": "staticwebassets\\galary\\\uD835\uDE06\uD835\uDDFC\uD835\uDE02\uD835\uDDFF\uD835\uDDFF\uD835\uDE04\uD835\uDDF6\uD835\uDDF3\uD835\uDDF2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\03de01af-6725-4662-80c2-fce6556cb7937.PNG",
+      "PackagePath": "staticwebassets\\img\\03de01af-6725-4662-80c2-fce6556cb7937.PNG"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\06c876a1-e392-4293-a2bf-9bf5c387cd6e45_Elegant_Graduation_Cake_Ideas_Perfect_For_A_Crowd-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\06c876a1-e392-4293-a2bf-9bf5c387cd6e45_Elegant_Graduation_Cake_Ideas_Perfect_For_A_Crowd-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\1.jpg",
+      "PackagePath": "staticwebassets\\img\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\118dc61e-6556-4eba-b9d7-5a1658195bferose gift bouquet.jpg",
+      "PackagePath": "staticwebassets\\img\\118dc61e-6556-4eba-b9d7-5a1658195bferose gift bouquet.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\121cbc28-2ba6-46d0-9380-b4ef39e0830f33.PNG",
+      "PackagePath": "staticwebassets\\img\\121cbc28-2ba6-46d0-9380-b4ef39e0830f33.PNG"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\135fa21b-2bfa-46e3-9620-bc6d9649842a34567U8IO.PNG",
+      "PackagePath": "staticwebassets\\img\\135fa21b-2bfa-46e3-9620-bc6d9649842a34567U8IO.PNG"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\14 Candle Photography Ideas for Perfect Candlelight Shots.jpg",
+      "PackagePath": "staticwebassets\\img\\14 Candle Photography Ideas for Perfect Candlelight Shots.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\14320001-9fd2-4767-b9ef-bf0ec273be04dior_hypnotic_poison_100ml_eau_de_toilette-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\14320001-9fd2-4767-b9ef-bf0ec273be04dior_hypnotic_poison_100ml_eau_de_toilette-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\188df81c-ed6b-4bef-ba66-2c58d7007c66Capture.PNG",
+      "PackagePath": "staticwebassets\\img\\188df81c-ed6b-4bef-ba66-2c58d7007c66Capture.PNG"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\1bc6f096-1e64-4d1a-873e-d5f9099bcaeb34567.PNG",
+      "PackagePath": "staticwebassets\\img\\1bc6f096-1e64-4d1a-873e-d5f9099bcaeb34567.PNG"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\1f862c02-2862-4850-8d74-95d76ad5a4ddCapture.PNG",
+      "PackagePath": "staticwebassets\\img\\1f862c02-2862-4850-8d74-95d76ad5a4ddCapture.PNG"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\2.jpg",
+      "PackagePath": "staticwebassets\\img\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\20da5f5b-7c81-47ce-83b9-97a905dc94adfbaf9718-9cb5-40f8-8d2a-09e76ec0056f.jpg",
+      "PackagePath": "staticwebassets\\img\\20da5f5b-7c81-47ce-83b9-97a905dc94adfbaf9718-9cb5-40f8-8d2a-09e76ec0056f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\218365e9-c5ac-4f20-bc05-29e32d71a92cVindemia Gold.jpg",
+      "PackagePath": "staticwebassets\\img\\218365e9-c5ac-4f20-bc05-29e32d71a92cVindemia Gold.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\22c4709f-01eb-4dff-b51a-d48fc7397c41Candle_bouquet-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\22c4709f-01eb-4dff-b51a-d48fc7397c41Candle_bouquet-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\22e81fce-cc69-462e-8a3d-cb1bcbd59b091111.PNG",
+      "PackagePath": "staticwebassets\\img\\22e81fce-cc69-462e-8a3d-cb1bcbd59b091111.PNG"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\25e96194-0e32-45c9-aed1-4979bdc2196ahanddddd.jpeg",
+      "PackagePath": "staticwebassets\\img\\25e96194-0e32-45c9-aed1-4979bdc2196ahanddddd.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\26022838-ec76-432d-8bd7-814e5bc561d94.PNG",
+      "PackagePath": "staticwebassets\\img\\26022838-ec76-432d-8bd7-814e5bc561d94.PNG"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\2631aebe-cb6b-407e-baf8-b44a7c1205e834.PNG",
+      "PackagePath": "staticwebassets\\img\\2631aebe-cb6b-407e-baf8-b44a7c1205e834.PNG"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\27193c5f-a576-4f12-a565-931ca030e4a58f47a257-c1b6-4406-aff3-9903317241ff-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\27193c5f-a576-4f12-a565-931ca030e4a58f47a257-c1b6-4406-aff3-9903317241ff-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\27658f26-bb05-4511-8575-35f8c6f31ce3Vindemia Gold.jpg",
+      "PackagePath": "staticwebassets\\img\\27658f26-bb05-4511-8575-35f8c6f31ce3Vindemia Gold.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\276f115b-1467-46ee-b4ee-59a58d582a275899913420109628048-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\276f115b-1467-46ee-b4ee-59a58d582a275899913420109628048-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\2a16dd63-2c04-455b-ae13-2b2f32aa3c175899913420109628048-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\2a16dd63-2c04-455b-ae13-2b2f32aa3c175899913420109628048-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\2a284d92-9204-4854-a136-5fd8c254cd4f234568-removebg-preview (1).png",
+      "PackagePath": "staticwebassets\\img\\2a284d92-9204-4854-a136-5fd8c254cd4f234568-removebg-preview (1).png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\2a7904fb-273b-4628-8b15-1d849c4ee0cd5899913420109628048-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\2a7904fb-273b-4628-8b15-1d849c4ee0cd5899913420109628048-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\2e85e7fc-d125-45ab-9919-3e7944aa27dedownload__5_-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\2e85e7fc-d125-45ab-9919-3e7944aa27dedownload__5_-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\3177334c-6732-404f-93b9-6f58babb396c5933868366399914739_1_0.jpg",
+      "PackagePath": "staticwebassets\\img\\3177334c-6732-404f-93b9-6f58babb396c5933868366399914739_1_0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\31a98c9f-0e2d-4cdc-91aa-915d21d6c7945933868366399914745.jpg",
+      "PackagePath": "staticwebassets\\img\\31a98c9f-0e2d-4cdc-91aa-915d21d6c7945933868366399914745.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\33b09ffb-aff5-4512-938f-1b79aec0c27c5933868366399914739_50.jpg",
+      "PackagePath": "staticwebassets\\img\\33b09ffb-aff5-4512-938f-1b79aec0c27c5933868366399914739_50.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\33c7d7a1-211a-41d8-9624-57ef29b9fc2ddior_hypnotic_poison_100ml_eau_de_toilette-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\33c7d7a1-211a-41d8-9624-57ef29b9fc2ddior_hypnotic_poison_100ml_eau_de_toilette-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\3508c495-e2cb-4948-bebb-df118c73420c5899913420109628042-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\3508c495-e2cb-4948-bebb-df118c73420c5899913420109628042-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\365a697c00f6f56b26af0dbcbe00f395.jpg",
+      "PackagePath": "staticwebassets\\img\\365a697c00f6f56b26af0dbcbe00f395.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\3a08d9e6-0515-45fd-8c7e-9c8b47950f2e34567.PNG",
+      "PackagePath": "staticwebassets\\img\\3a08d9e6-0515-45fd-8c7e-9c8b47950f2e34567.PNG"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\3f8ff4a8-b8a4-497f-976f-069b9828b864Ice Cream Cake Decorating Tutorial _ How to Decorate a Cake.jpg",
+      "PackagePath": "staticwebassets\\img\\3f8ff4a8-b8a4-497f-976f-069b9828b864Ice Cream Cake Decorating Tutorial _ How to Decorate a Cake.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\4452b0b7-144f-417f-9854-54314264759d8f47a257-c1b6-4406-aff3-9903317241ff-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\4452b0b7-144f-417f-9854-54314264759d8f47a257-c1b6-4406-aff3-9903317241ff-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\446886ad-cc01-4b59-81a5-d70827185a741.PNG",
+      "PackagePath": "staticwebassets\\img\\446886ad-cc01-4b59-81a5-d70827185a741.PNG"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\45a9919b-e57a-4449-877e-493b2019eeb25933868366399914745.jpg",
+      "PackagePath": "staticwebassets\\img\\45a9919b-e57a-4449-877e-493b2019eeb25933868366399914745.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\47edbf0f-547f-48c4-99d8-09672946dfcdsauvage_elixir_eau_de_parfume_100_ml.jpg",
+      "PackagePath": "staticwebassets\\img\\47edbf0f-547f-48c4-99d8-09672946dfcdsauvage_elixir_eau_de_parfume_100_ml.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\4b462b66-2c8a-4d07-b7db-3ac6c0f2dedc5933868366399914741-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\4b462b66-2c8a-4d07-b7db-3ac6c0f2dedc5933868366399914741-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\4c906f3a-f1ed-4ab0-9136-2f6c6c7b733a3.PNG",
+      "PackagePath": "staticwebassets\\img\\4c906f3a-f1ed-4ab0-9136-2f6c6c7b733a3.PNG"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\4de08251-7a24-4c9a-afac-255582b5325b5933868366399914739_1_0.jpg",
+      "PackagePath": "staticwebassets\\img\\4de08251-7a24-4c9a-afac-255582b5325b5933868366399914739_1_0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\4f4370d1-ca50-48ea-88ad-c67c215d176206b75b5c-2770-49ff-a414-8d5694f677a5-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\4f4370d1-ca50-48ea-88ad-c67c215d176206b75b5c-2770-49ff-a414-8d5694f677a5-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\5095d030-571c-4c14-b3d8-7d86711a890a5933868366399914746-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\5095d030-571c-4c14-b3d8-7d86711a890a5933868366399914746-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\50d01ca3-c787-4c68-9a73-285acad19a80cakes-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\50d01ca3-c787-4c68-9a73-285acad19a80cakes-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\516c3b82-8485-4b70-b404-8917d16ed0365933868366399914744-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\516c3b82-8485-4b70-b404-8917d16ed0365933868366399914744-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\53116b34-4d21-4271-983c-a757bf015a6c234568.PNG",
+      "PackagePath": "staticwebassets\\img\\53116b34-4d21-4271-983c-a757bf015a6c234568.PNG"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\5317c7a8-b3b2-4e2a-b497-598511d0cbb6234568-removebg-preview (1).png",
+      "PackagePath": "staticwebassets\\img\\5317c7a8-b3b2-4e2a-b497-598511d0cbb6234568-removebg-preview (1).png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\55836e50-fdf7-4230-b986-f6e3b290a35333.PNG",
+      "PackagePath": "staticwebassets\\img\\55836e50-fdf7-4230-b986-f6e3b290a35333.PNG"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\55b720cd-90f7-4ed6-ba59-2f6bfca5e5a07.PNG",
+      "PackagePath": "staticwebassets\\img\\55b720cd-90f7-4ed6-ba59-2f6bfca5e5a07.PNG"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\58b48fe4-bd22-410f-9838-91831f57d00766666.PNG",
+      "PackagePath": "staticwebassets\\img\\58b48fe4-bd22-410f-9838-91831f57d00766666.PNG"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\5b13e330-9bb7-4317-876d-2f4c3c3bab03Candle_bouquet-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\5b13e330-9bb7-4317-876d-2f4c3c3bab03Candle_bouquet-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\5b9de594-115e-469a-80a1-5ad6b99a0be56.PNG",
+      "PackagePath": "staticwebassets\\img\\5b9de594-115e-469a-80a1-5ad6b99a0be56.PNG"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\6071ae4e-e225-40a5-bc52-1436a12563d034567.PNG",
+      "PackagePath": "staticwebassets\\img\\6071ae4e-e225-40a5-bc52-1436a12563d034567.PNG"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\60af8bec-7a17-40db-bdd1-6b9698589e36234566.PNG",
+      "PackagePath": "staticwebassets\\img\\60af8bec-7a17-40db-bdd1-6b9698589e36234566.PNG"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\615ffc08-1669-478b-b169-85dc660575f7playstationFiveHeadSeat.jpeg",
+      "PackagePath": "staticwebassets\\img\\615ffc08-1669-478b-b169-85dc660575f7playstationFiveHeadSeat.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\62ad142d-9bad-497c-a923-9f63e88fc7a53.PNG",
+      "PackagePath": "staticwebassets\\img\\62ad142d-9bad-497c-a923-9f63e88fc7a53.PNG"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\63a8aa66-c714-44f5-a118-7df45d6b74a9Candle_bouquet-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\63a8aa66-c714-44f5-a118-7df45d6b74a9Candle_bouquet-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\63f23c7f-09cb-4a19-a7bb-deb77e6a92155933868366399914744-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\63f23c7f-09cb-4a19-a7bb-deb77e6a92155933868366399914744-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\655f73b5-7030-4d18-a75c-16db1051edd6Ice_Cream_Cake_Decorating_Tutorial___How_to_Decorate_a_Cake-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\655f73b5-7030-4d18-a75c-16db1051edd6Ice_Cream_Cake_Decorating_Tutorial___How_to_Decorate_a_Cake-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\666d33ac-cda5-44b1-897c-12208552f3545.PNG",
+      "PackagePath": "staticwebassets\\img\\666d33ac-cda5-44b1-897c-12208552f3545.PNG"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\670f7e62-d34f-4ec9-a093-101ee17726caWhatsApp Image 2024-11-17 at 17.24.40 (6).jpeg",
+      "PackagePath": "staticwebassets\\img\\670f7e62-d34f-4ec9-a093-101ee17726caWhatsApp Image 2024-11-17 at 17.24.40 (6).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\6b98d9a3-98d5-4a31-a485-f99ff7e27ca65933868366399914744-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\6b98d9a3-98d5-4a31-a485-f99ff7e27ca65933868366399914744-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\6c17047c-c49f-41c0-aade-a35be315f89d5933868366399914739.jpg",
+      "PackagePath": "staticwebassets\\img\\6c17047c-c49f-41c0-aade-a35be315f89d5933868366399914739.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\6c17e474-68b9-4145-a4e7-69c6981274a0playstationFive.jpeg",
+      "PackagePath": "staticwebassets\\img\\6c17e474-68b9-4145-a4e7-69c6981274a0playstationFive.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\6c227d94-cab8-4812-9517-a6f23f58d452rose_gift_bouquet-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\6c227d94-cab8-4812-9517-a6f23f58d452rose_gift_bouquet-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\6ceda4e9-da78-40ed-8686-bd47146fca6922222-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\6ceda4e9-da78-40ed-8686-bd47146fca6922222-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\6f2d7619-9e30-4ce7-ba8a-bab6c6017f0866666-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\6f2d7619-9e30-4ce7-ba8a-bab6c6017f0866666-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\7001fbe3-f9f1-4303-8c67-240a0b52edd3Vindemia Gold.jpg",
+      "PackagePath": "staticwebassets\\img\\7001fbe3-f9f1-4303-8c67-240a0b52edd3Vindemia Gold.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\71dd3fe7-6849-46ba-a9c7-2404e03c95b3WhatsApp Image 2024-11-17 at 17.24.40 (4).jpeg",
+      "PackagePath": "staticwebassets\\img\\71dd3fe7-6849-46ba-a9c7-2404e03c95b3WhatsApp Image 2024-11-17 at 17.24.40 (4).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\73b78939-f459-4da6-9c39-bfcc5353097d66666.PNG",
+      "PackagePath": "staticwebassets\\img\\73b78939-f459-4da6-9c39-bfcc5353097d66666.PNG"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\76124a50-9bb5-4fcb-8bd1-328b9c558b6brose gift bouquet.jpg",
+      "PackagePath": "staticwebassets\\img\\76124a50-9bb5-4fcb-8bd1-328b9c558b6brose gift bouquet.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\768856ec-ea41-469b-a655-edb9cb61971e8f47a257-c1b6-4406-aff3-9903317241ff-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\768856ec-ea41-469b-a655-edb9cb61971e8f47a257-c1b6-4406-aff3-9903317241ff-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\7989375c-baff-4091-81b2-500840701c0b445.PNG",
+      "PackagePath": "staticwebassets\\img\\7989375c-baff-4091-81b2-500840701c0b445.PNG"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\7e42541c-567b-455d-b731-d538c49a4f0b22222.PNG",
+      "PackagePath": "staticwebassets\\img\\7e42541c-567b-455d-b731-d538c49a4f0b22222.PNG"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\82ac376a-e703-4ce2-8686-95db239e74319-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\82ac376a-e703-4ce2-8686-95db239e74319-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\8364f952-c0aa-4e64-9224-f859e78f78ad8f47a257-c1b6-4406-aff3-9903317241ff-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\8364f952-c0aa-4e64-9224-f859e78f78ad8f47a257-c1b6-4406-aff3-9903317241ff-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\851e43d1-6cbb-4b23-afca-9f1abe4380753456.PNG",
+      "PackagePath": "staticwebassets\\img\\851e43d1-6cbb-4b23-afca-9f1abe4380753456.PNG"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\8567eaf1-ae0e-43e1-a418-b5ae695d5b1dThis____️-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\8567eaf1-ae0e-43e1-a418-b5ae695d5b1dThis____️-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\869b61de-1975-4a4e-bb25-52ab2d086046Gucci_Bloom_Ambrosia_di_Fiori_Eau_de_Parfum_Intense_For_Her_-_Gucci___Sephora-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\869b61de-1975-4a4e-bb25-52ab2d086046Gucci_Bloom_Ambrosia_di_Fiori_Eau_de_Parfum_Intense_For_Her_-_Gucci___Sephora-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\8a180531-c168-40cb-a3a5-8e34f4dfb1e1rose gift bouquet.jpg",
+      "PackagePath": "staticwebassets\\img\\8a180531-c168-40cb-a3a5-8e34f4dfb1e1rose gift bouquet.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\8b05840d-ac73-4c78-94af-f8f6c62dacf75933868366399914739-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\8b05840d-ac73-4c78-94af-f8f6c62dacf75933868366399914739-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\8e3b0545-641a-4a0f-8547-894716777a7d33.PNG",
+      "PackagePath": "staticwebassets\\img\\8e3b0545-641a-4a0f-8547-894716777a7d33.PNG"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\8f6d99dc-c43f-4e79-bcd1-45613e7052a7c99b77d0-f76e-4bf7-8d6e-6a097f0a5a62-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\8f6d99dc-c43f-4e79-bcd1-45613e7052a7c99b77d0-f76e-4bf7-8d6e-6a097f0a5a62-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\8fdcf37e-2237-4e32-a9ed-95000be8334c.jpg",
+      "PackagePath": "staticwebassets\\img\\8fdcf37e-2237-4e32-a9ed-95000be8334c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\90252e74-3e65-434f-a805-f495bfbc80105899913420109628047-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\90252e74-3e65-434f-a805-f495bfbc80105899913420109628047-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\90da94f3-41ba-46f3-b44e-94ad41caf84544.PNG",
+      "PackagePath": "staticwebassets\\img\\90da94f3-41ba-46f3-b44e-94ad41caf84544.PNG"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\93d7bf76-da58-462e-8afc-72a6cd8fc793download__6_-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\93d7bf76-da58-462e-8afc-72a6cd8fc793download__6_-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\9b6c0660-64d0-4748-819a-2cd9574b27ad5899913420109628048-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\9b6c0660-64d0-4748-819a-2cd9574b27ad5899913420109628048-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\Aboutt.jpg",
+      "PackagePath": "staticwebassets\\img\\Aboutt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\Apple-Logo123.jpg",
+      "PackagePath": "staticwebassets\\img\\Apple-Logo123.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\Believe_in_Yourself__-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\Believe_in_Yourself__-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\Relojes_clasicos-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\Relojes_clasicos-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\Studio.jpg",
+      "PackagePath": "staticwebassets\\img\\Studio.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\Tangente_33_duo___NOMOS_Glashütte-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\Tangente_33_duo___NOMOS_Glashütte-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\WhatsApp Image 2024-11-16 at 20.34.32.jpeg",
+      "PackagePath": "staticwebassets\\img\\WhatsApp Image 2024-11-16 at 20.34.32.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\WhatsApp Video 2024-08-03 at 9.55.42 PM (1).mp4",
+      "PackagePath": "staticwebassets\\img\\WhatsApp Video 2024-08-03 at 9.55.42 PM (1).mp4"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\X-Box.jpeg",
+      "PackagePath": "staticwebassets\\img\\X-Box.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\XBoxLoooooogooo.webp",
+      "PackagePath": "staticwebassets\\img\\XBoxLoooooogooo.webp"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\XboxYazeeed.webp",
+      "PackagePath": "staticwebassets\\img\\XboxYazeeed.webp"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\Xbox_logooooo.webp",
+      "PackagePath": "staticwebassets\\img\\Xbox_logooooo.webp"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\_Party_Golden_And_White_Balloons_In_Front_Of_The_Ceiling__by_Stocksy_Contributor__Beatrix_Boros_-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\_Party_Golden_And_White_Balloons_In_Front_Of_The_Ceiling__by_Stocksy_Contributor__Beatrix_Boros_-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\a.jpg",
+      "PackagePath": "staticwebassets\\img\\a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\a05e2af7-2667-4ee6-b82a-37bdf5b7bad634.PNG",
+      "PackagePath": "staticwebassets\\img\\a05e2af7-2667-4ee6-b82a-37bdf5b7bad634.PNG"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\a220c235-e0c3-485c-843a-2db8888b65595899913420109628047-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\a220c235-e0c3-485c-843a-2db8888b65595899913420109628047-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\a766c50e-10cf-4752-a8c9-5b12399a088434-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\a766c50e-10cf-4752-a8c9-5b12399a088434-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\abdc54e4-5180-4365-82f1-44b67d953ee666666-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\abdc54e4-5180-4365-82f1-44b67d953ee666666-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\abt.jpg",
+      "PackagePath": "staticwebassets\\img\\abt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\acccccc.jpeg",
+      "PackagePath": "staticwebassets\\img\\acccccc.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\ada79e2f-356f-4da6-8902-d7a28270306claptop001.jpg",
+      "PackagePath": "staticwebassets\\img\\ada79e2f-356f-4da6-8902-d7a28270306claptop001.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\af338f90-3afe-4261-97a4-e79eb52d4a69rose gift bouquet.jpg",
+      "PackagePath": "staticwebassets\\img\\af338f90-3afe-4261-97a4-e79eb52d4a69rose gift bouquet.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\avaters\\avatar1.png",
+      "PackagePath": "staticwebassets\\img\\avaters\\avatar1.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\avaters\\avatar2.png",
+      "PackagePath": "staticwebassets\\img\\avaters\\avatar2.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\avaters\\avatar3.png",
+      "PackagePath": "staticwebassets\\img\\avaters\\avatar3.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\b2963cd6-0032-4b53-8238-fe8abad64ee2headseat1122.jpeg",
+      "PackagePath": "staticwebassets\\img\\b2963cd6-0032-4b53-8238-fe8abad64ee2headseat1122.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\b4e14260-4050-498d-b27c-50be807d0e245933868366399914741-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\b4e14260-4050-498d-b27c-50be807d0e245933868366399914741-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\b776977d-7239-4f6e-955b-9c0f47b73c3d5933868366399914746.jpg",
+      "PackagePath": "staticwebassets\\img\\b776977d-7239-4f6e-955b-9c0f47b73c3d5933868366399914746.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\back-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\back-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\back.jpg",
+      "PackagePath": "staticwebassets\\img\\back.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\bb2972c8-bedb-435b-8e11-eb8401a9350bX-Box.jpeg",
+      "PackagePath": "staticwebassets\\img\\bb2972c8-bedb-435b-8e11-eb8401a9350bX-Box.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\bdd8f24e-949a-4c43-a8e3-c036510e3bef5933868366399914739.jpg",
+      "PackagePath": "staticwebassets\\img\\bdd8f24e-949a-4c43-a8e3-c036510e3bef5933868366399914739.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\breadcrumb-bg.jpg",
+      "PackagePath": "staticwebassets\\img\\breadcrumb-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\c0f8e0d0-f0cc-4895-80ee-dd2c5c26f5a3WhatsApp Image 2024-11-17 at 17.24.40 (7).jpeg",
+      "PackagePath": "staticwebassets\\img\\c0f8e0d0-f0cc-4895-80ee-dd2c5c26f5a3WhatsApp Image 2024-11-17 at 17.24.40 (7).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\c2668d53-e597-4315-813d-f0a1831d58c322.PNG",
+      "PackagePath": "staticwebassets\\img\\c2668d53-e597-4315-813d-f0a1831d58c322.PNG"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\cbf6821c10a5d5762527b93f31586743-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\cbf6821c10a5d5762527b93f31586743-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\cbf6821c10a5d5762527b93f31586743.jpg",
+      "PackagePath": "staticwebassets\\img\\cbf6821c10a5d5762527b93f31586743.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\cf41b468-a0fd-4d1b-9b3f-1a99053c8d2c5933868366399914740.jpg",
+      "PackagePath": "staticwebassets\\img\\cf41b468-a0fd-4d1b-9b3f-1a99053c8d2c5933868366399914740.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\cfc26f90-2aea-4a77-ba9b-dfc522a40773sauvage_elixir_eau_de_parfume_100_ml-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\cfc26f90-2aea-4a77-ba9b-dfc522a40773sauvage_elixir_eau_de_parfume_100_ml-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\company-logos\\1.png",
+      "PackagePath": "staticwebassets\\img\\company-logos\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\company-logos\\2.png",
+      "PackagePath": "staticwebassets\\img\\company-logos\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\company-logos\\3.png",
+      "PackagePath": "staticwebassets\\img\\company-logos\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\company-logos\\4.png",
+      "PackagePath": "staticwebassets\\img\\company-logos\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\company-logos\\5.png",
+      "PackagePath": "staticwebassets\\img\\company-logos\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\connnnnnn.jpeg",
+      "PackagePath": "staticwebassets\\img\\connnnnnn.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\cta.jpg",
+      "PackagePath": "staticwebassets\\img\\cta.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\d3577861-443a-48d6-b3f8-225d01f6e3450-ralph-lauren-polo-deep-blue-edp-75ml-403018-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\d3577861-443a-48d6-b3f8-225d01f6e3450-ralph-lauren-polo-deep-blue-edp-75ml-403018-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\d599a9f6-5cea-487f-bf93-e6347f81498erose gift bouquet.jpg",
+      "PackagePath": "staticwebassets\\img\\d599a9f6-5cea-487f-bf93-e6347f81498erose gift bouquet.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\dbe3993a-6088-4f7c-ad6b-35bfa688ec533.PNG",
+      "PackagePath": "staticwebassets\\img\\dbe3993a-6088-4f7c-ad6b-35bfa688ec533.PNG"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\dd.jpg",
+      "PackagePath": "staticwebassets\\img\\dd.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\download-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\download-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\download.jpg",
+      "PackagePath": "staticwebassets\\img\\download.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\e33d9148-5f6b-4dbd-828c-d7dbd07477efWhatsApp Image 2024-11-17 at 17.24.40 (5).jpeg",
+      "PackagePath": "staticwebassets\\img\\e33d9148-5f6b-4dbd-828c-d7dbd07477efWhatsApp Image 2024-11-17 at 17.24.40 (5).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\e42ff3cc-dcee-4d40-ba4d-ea66710d42445933868366399914740.jpg",
+      "PackagePath": "staticwebassets\\img\\e42ff3cc-dcee-4d40-ba4d-ea66710d42445933868366399914740.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\e8de8c17-ba56-4d0d-9070-2c45307f7c8d3.PNG",
+      "PackagePath": "staticwebassets\\img\\e8de8c17-ba56-4d0d-9070-2c45307f7c8d3.PNG"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\e9b25375-4b02-4bb2-9375-4dcb755b239e5933868366399914740.jpg",
+      "PackagePath": "staticwebassets\\img\\e9b25375-4b02-4bb2-9375-4dcb755b239e5933868366399914740.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\e9f24bca-cc7f-4f3b-84c8-6aa04e47d9b7headseat1122.jpeg",
+      "PackagePath": "staticwebassets\\img\\e9f24bca-cc7f-4f3b-84c8-6aa04e47d9b7headseat1122.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\ee.png",
+      "PackagePath": "staticwebassets\\img\\ee.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\f0066721-e0e3-4ddf-a086-b266561bbf9dBouquete_de_velas_aromáticas-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\f0066721-e0e3-4ddf-a086-b266561bbf9dBouquete_de_velas_aromáticas-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\f093771d-d0f3-4b86-852b-eb5a4d63eda045_Elegant_Graduation_Cake_Ideas_Perfect_For_A_Crowd-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\f093771d-d0f3-4b86-852b-eb5a4d63eda045_Elegant_Graduation_Cake_Ideas_Perfect_For_A_Crowd-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\f5fc6ffa-bdcf-4416-8394-3314dcf411155899913420109628042-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\f5fc6ffa-bdcf-4416-8394-3314dcf411155899913420109628042-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\f847e2da-dcb8-4d1b-bdad-7b76fee7dd7e23456y.PNG",
+      "PackagePath": "staticwebassets\\img\\f847e2da-dcb8-4d1b-bdad-7b76fee7dd7e23456y.PNG"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\fa793dae-a7c0-4172-968e-e016e679e027This____️-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\fa793dae-a7c0-4172-968e-e016e679e027This____️-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\faa7a9ac-0e17-4530-96f8-687f2e6656aa5933868366399914744-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\faa7a9ac-0e17-4530-96f8-687f2e6656aa5933868366399914744-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\faeff0f3-5d83-40bb-9138-de22f6eeb98a5899913420109628045-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\faeff0f3-5d83-40bb-9138-de22f6eeb98a5899913420109628045-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\favicon.png",
+      "PackagePath": "staticwebassets\\img\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\fbaf9718-9cb5-40f8-8d2a-09e76ec0056f.jpg",
+      "PackagePath": "staticwebassets\\img\\fbaf9718-9cb5-40f8-8d2a-09e76ec0056f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\fce24f80-e25a-491a-8b39-1f14097ad9e1Vindemia Gold.jpg",
+      "PackagePath": "staticwebassets\\img\\fce24f80-e25a-491a-8b39-1f14097ad9e1Vindemia Gold.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\feature-bg.jpg",
+      "PackagePath": "staticwebassets\\img\\feature-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\first-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\first-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\hero-bg-2.jpg",
+      "PackagePath": "staticwebassets\\img\\hero-bg-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\hero-bg-3.jpg",
+      "PackagePath": "staticwebassets\\img\\hero-bg-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\hero-bg.jpg",
+      "PackagePath": "staticwebassets\\img\\hero-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\homepage-bg-pattern.png",
+      "PackagePath": "staticwebassets\\img\\homepage-bg-pattern.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\laptop001.jpg",
+      "PackagePath": "staticwebassets\\img\\laptop001.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\latest-news\\news-bg-1.jpg",
+      "PackagePath": "staticwebassets\\img\\latest-news\\news-bg-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\latest-news\\news-bg-2.jpg",
+      "PackagePath": "staticwebassets\\img\\latest-news\\news-bg-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\latest-news\\news-bg-3.jpg",
+      "PackagePath": "staticwebassets\\img\\latest-news\\news-bg-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\latest-news\\news-bg-4.jpg",
+      "PackagePath": "staticwebassets\\img\\latest-news\\news-bg-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\latest-news\\news-bg-5.jpg",
+      "PackagePath": "staticwebassets\\img\\latest-news\\news-bg-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\latest-news\\news-bg-6.jpg",
+      "PackagePath": "staticwebassets\\img\\latest-news\\news-bg-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\logooooooo.jpeg",
+      "PackagePath": "staticwebassets\\img\\logooooooo.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\nvvvvvv.webp",
+      "PackagePath": "staticwebassets\\img\\nvvvvvv.webp"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\playstationFive.jpeg",
+      "PackagePath": "staticwebassets\\img\\playstationFive.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\products\\product-img-1.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\product-img-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\products\\product-img-2.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\product-img-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\products\\product-img-3.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\product-img-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\products\\product-img-4.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\product-img-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\products\\product-img-5.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\product-img-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\products\\product-img-6.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\product-img-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\slider111.jpeg",
+      "PackagePath": "staticwebassets\\img\\slider111.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\slider222.jpeg",
+      "PackagePath": "staticwebassets\\img\\slider222.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\slider333.jpeg",
+      "PackagePath": "staticwebassets\\img\\slider333.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\sliderFive.jpeg",
+      "PackagePath": "staticwebassets\\img\\sliderFive.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\sliderFour.jpeg",
+      "PackagePath": "staticwebassets\\img\\sliderFour.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\sliderOne.jpeg",
+      "PackagePath": "staticwebassets\\img\\sliderOne.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\sliderThree.jpeg",
+      "PackagePath": "staticwebassets\\img\\sliderThree.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\sliderTwo.jpeg",
+      "PackagePath": "staticwebassets\\img\\sliderTwo.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\team\\team-1.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\team-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\team\\team-2.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\team-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\team\\team-3.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\team-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\tt.png",
+      "PackagePath": "staticwebassets\\img\\tt.png"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\img\\womens watches aesthetic.jpg",
+      "PackagePath": "staticwebassets\\img\\womens watches aesthetic.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\js\\form-validate.js",
+      "PackagePath": "staticwebassets\\js\\form-validate.js"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\js\\jquery-1.11.3.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-1.11.3.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\js\\jquery.countdown.js",
+      "PackagePath": "staticwebassets\\js\\jquery.countdown.js"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\js\\jquery.isotope-3.0.6.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.isotope-3.0.6.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\js\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\js\\jquery.meanmenu.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.meanmenu.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\js\\sticker.js",
+      "PackagePath": "staticwebassets\\js\\sticker.js"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\js\\test.js",
+      "PackagePath": "staticwebassets\\js\\test.js"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\js\\waypoints.js",
+      "PackagePath": "staticwebassets\\js\\waypoints.js"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\video\\7668099-hd_1920_1080_25fps.mp4",
+      "PackagePath": "staticwebassets\\video\\7668099-hd_1920_1080_25fps.mp4"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\video\\7774453-uhd_3840_2160_30fps.mp4",
+      "PackagePath": "staticwebassets\\video\\7774453-uhd_3840_2160_30fps.mp4"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\video\\IMG_2627 (2).MP4",
+      "PackagePath": "staticwebassets\\video\\IMG_2627 (2).MP4"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\video\\WhatsApp Video 2024-08-10 at 5.55.50 PM.mp4",
+      "PackagePath": "staticwebassets\\video\\WhatsApp Video 2024-08-10 at 5.55.50 PM.mp4"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\video\\WhatsApp Video 2024-08-15 at 3.50.31 PM.mp4",
+      "PackagePath": "staticwebassets\\video\\WhatsApp Video 2024-08-15 at 3.50.31 PM.mp4"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\video\\yosrrrrrrrr.mp4",
+      "PackagePath": "staticwebassets\\video\\yosrrrrrrrr.mp4"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\webfonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\webfonts\\fa-brands-400.eot_",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.eot_"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\webfonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\webfonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\webfonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\webfonts\\fa-regular-400.eot_",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.eot_"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\webfonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\webfonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\webfonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\webfonts\\fa-solid-900.eot_",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.eot_"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\webfonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\webfonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\yazee\\OrangeProjects\\finalFinal001\\HereToYouProject-main\\HereToYou\\wwwroot\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.HereToYou.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.HereToYou.props",
+      "PackagePath": "build\\HereToYou.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.HereToYou.props",
+      "PackagePath": "buildMultiTargeting\\HereToYou.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.HereToYou.props",
+      "PackagePath": "buildTransitive\\HereToYou.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

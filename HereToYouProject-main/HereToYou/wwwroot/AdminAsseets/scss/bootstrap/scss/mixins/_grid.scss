@@ -1,0 +1,85 @@
+// Update .make-col to include height
+@mixin make-col($size: false, $columns: $grid-columns, $height: null) {
+    @if $size {
+        flex: 0 0 auto;
+        width: percentage($size / $columns);
+    }
+    @else {
+        flex: 1 1 0;
+        max-width: 100%;
+    }
+
+    @if $height {
+        height: $height;
+    }
+}
+
+// Example of making height adjustable
+@mixin make-col-auto($height: null) {
+    flex: 0 0 auto;
+    width: auto;
+
+    @if $height {
+        height: $height;
+    }
+}
+
+// Example usage of the mixins with height
+@mixin make-grid-columns($columns: $grid-columns, $gutter: $grid-gutter-width, $breakpoints: $grid-breakpoints, $height: null) {
+    @each $breakpoint in map-keys($breakpoints) {
+        $infix: breakpoint-infix($breakpoint, $breakpoints);
+
+        @include media-breakpoint-up($breakpoint, $breakpoints) {
+            .col#{$infix} {
+                flex: 1 0 0%; // Flexbugs #4: https://github.com/philipwalton/flexbugs#flexbug-4
+                @if $height {
+                    height: $height;
+                }
+            }
+
+            .row-cols#{$infix}-auto > * {
+                @include make-col-auto($height);
+            }
+
+            @if $grid-row-columns > 0 {
+                @for $i from 1 through $grid-row-columns {
+                    .row-cols#{$infix}-#{$i} {
+                        @include row-cols($i);
+                    }
+                }
+            }
+
+            .col#{$infix}-auto {
+                @include make-col-auto($height);
+            }
+
+            @if $columns > 0 {
+                @for $i from 1 through $columns {
+                    .col#{$infix}-#{$i} {
+                        @include make-col($i, $columns, $height);
+                    }
+                }
+
+                @for $i from 0 through ($columns - 1) {
+                    @if not ($infix == "" and $i == 0) {
+                        .offset#{$infix}-#{$i} {
+                            @include make-col-offset($i, $columns);
+                        }
+                    }
+                }
+            }
+
+            @each $key, $value in $gutters {
+                .g#{$infix}-#{$key},
+                .gx#{$infix}-#{$key} {
+                    --#{$variable-prefix}gutter-x: #{$value};
+                }
+
+                .g#{$infix}-#{$key},
+                .gy#{$infix}-#{$key} {
+                    --#{$variable-prefix}gutter-y: #{$value};
+                }
+            }
+        }
+    }
+}

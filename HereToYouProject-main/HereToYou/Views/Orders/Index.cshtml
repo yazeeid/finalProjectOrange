@@ -1,0 +1,57 @@
+﻿@model IEnumerable<HereToYou.Models.Order>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "AdminLayout";
+}
+
+<div class="container-fluid pt-4 px-4">
+    <div class="row g-4">
+        <div class="col-12">
+            <div class="bg-secondary rounded h-100 p-4">
+                <h6 class="mb-4">Order Table</h6>
+                <div class="d-flex mb-3">
+                    <div class="flex-grow-1 mr-2" style="flex-basis: 75%;">
+                        <form asp-action="SearchByOrderId" method="post" class="d-flex align-items-center">
+                            <input type="text" name="id" class="form-control" placeholder="Search by order id" style="margin-right: 2%;" />
+                            <button type="submit" class="btn btn-primary" style="width: 20%;">Search</button>
+                        </form>
+                    </div>
+
+                </div>
+                <div class="table-responsive">
+                    <table class="table table-bordered table-striped">
+                        <thead class="table-dark">
+                            <tr>
+                                <th scope="col">Order ID</th>
+                                <th scope="col">User name</th>
+                                <th scope="col">Total Amount</th>
+                                <th scope="col">Date Order</th>
+                                @*                                 <th scope="col">Status</th>
+
+                                *@
+@*                                 <th scope="col">invoice</th>
+ *@                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <th scope="row">@item.Id</th>
+                                    <td>@item.User.Username</td>
+                                    <td>@item.TotalAmount</td>
+                                    <td>@(item.CreatedAt.ToString("yyyy-MM-dd HH:mm:ss") ?? "N/A")</td>
+                                    @*                                     <td>@(item.Status ?? "N/A")</td>
+                                *@
+                                   @*  <td>
+                                        @Html.ActionLink("View invoice", "ItemInOrder", "Orders", new { id = item.Id }, null)
+                                    </td> *@
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
